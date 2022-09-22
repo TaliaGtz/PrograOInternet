@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    background-color: beige;
+}
+form{
+    margin: auto;
+    padding: 10%;
+    width: 40%;
+    height: 50vh;
+    text-align: center;
+    background-color: rgb(199, 218, 243);
+}
+input{
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 0px solid;
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    width: 100%;
+    border: 0px solid;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
