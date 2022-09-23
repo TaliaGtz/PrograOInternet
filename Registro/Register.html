@@ -8,14 +8,23 @@
     <link rel="stylesheet" href="Register.css">
 </head>
 <body>
-    <form>
-        <label>User/Correo</label><br><br>
-        <input type="text"><br><br><br>
-        <label>Contraseña</label><br><br>
+    <div class="BG"></div>
+    <form action="../LogIn/LogIn.html">
+        <label>Nombres</label>
+        <input type="text"><br><br>
+        <label>Apellidos</label>
+        <input type="text"><br><br>
+        <label>Fecha de nacimiento</label>
+        <input type="date"><br><br>
+        <label>Correo</label>
+        <input type="email"><br><br>
+        <label>Username</label>
+        <input type="text"><br><br>
+        <label>Contraseña</label>
         <input type="password"><br><br>
-        <br><br><br>
-        <button type="submit" href="#">LogIn</button>
-        <a href="#">¿No te has registrado aún?</a>
+        <br><br>
+        <button id="RegButton" type="submit">Registrarse</button><br><br>
+        <a href="../LogIn/LogIn.html">¿Ya estás registrado?</a>
     </form>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
