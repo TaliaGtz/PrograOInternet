@@ -5,6 +5,6 @@ function validateLogIn() {
       alert("Ninguna celda puede estar en blanco");
       return false;
     }else{
-        return true;
+      return true;
     }
 }
