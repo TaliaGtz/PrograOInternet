@@ -15,7 +15,7 @@
     background-color: aliceblue;
     display: flex;
     justify-content: center;
-    background: linear-gradient(150deg, lightpink, mediumpurple, skyblue);
+    background: linear-gradient(330deg, rgb(254, 95, 119), rgb(112, 59, 218), rgb(59, 182, 231));
     background-size: 200% 100%;
     animation: BgGradient 15s ease infinite;
 }
