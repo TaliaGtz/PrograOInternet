@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px){
+    .categorias .card::after{
+        content: "";
+        width: 100%;
+        height: 120px;
+        position: absolute;
+        transform: translate(0, -50px);
+        left: calc(80% + 50px);
+        transition: .7s ease-in-out all;
+        border-left: 170px solid transparent;
+        border-bottom: 170px solid mediumpurple;
+    }
+    .categorias .card:hover::after{
+        left: 65%;
+    }
+}

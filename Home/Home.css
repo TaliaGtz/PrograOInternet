@@ -76,5 +76,5 @@ a{
     border-bottom: 170px solid skyblue;
 }
 .categorias .card:hover::after{
-    left: 65%;
+    left: 50%;
 }
