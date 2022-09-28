@@ -52,7 +52,6 @@ a{
     text-align: left;
     transition: all 0.25s ease;
     color: #2c1507;
-    background-color: rgb(212, 241, 252);
     text-decoration: none;
 }
 .text{
@@ -74,8 +73,8 @@ a{
     left: calc(80% + 50px);
     transition: .7s ease-in-out all;
     border-left: 170px solid transparent;
-    border-bottom: 170px solid mediumpurple;
+    border-bottom: 170px solid skyblue;
 }
 .categorias .card:hover::after{
-    left: 50%;
+    left: 65%;
 }
