@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tablero - e-class</title>
+    <title>Chats - e-class</title>
+    <link rel="stylesheet" href="Chats.css">
     <link rel="stylesheet" href="../Nav/Nav.css">
-    <link rel="stylesheet" href="Carrera.css">
     <link rel="stylesheet" href="../Extras/Responsive.css">
     <script src="https://kit.fontawesome.com/29079834be.js" crossorigin="anonymous"></script>
     <!-- Required meta tags -->
@@ -18,7 +18,7 @@
 <body>
     
     <div class="navTitle">
-        <h1 class="title">Tablero LMAD</h1>
+        <h1 class="title">Chats LMAD</h1>
         <a href="../Chats/Chats.html"><button class="group">Crear chat</button></a>
     </div>
     <div class="navBtns">
@@ -47,60 +47,25 @@
             <li class="lines dropdown">
                 <button id="bars btn btn-secondary dropdown-toggle" class="nav-toggle" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false"><i id="iBars" class="fas fa-bars"></i></button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                  <li><a class="dropdown-item nav-link" href="../Home/Home.html">Grupos</a></li>
-                  <li><a class="dropdown-item nav-link" href="../Carrera/Carrera.html">Tablero</a></li>
-                  <li><a class="dropdown-item nav-link" href="../Chats/Chats.html">Chats</a></li>
-                  <li><a class="dropdown-item nav-link" href="#">Integrantes del grupo</a></li>
-                  <li><a class="dropdown-item nav-link" href="#">Correo</a></li>
-                  <li><a class="dropdown-item nav-link" href="#">Tareas</a></li>
-                  <li><a class="dropdown-item nav-link" href="../LogIn/LogIn.html">Salir</a></li>
+                    <li><a class="dropdown-item nav-link" href="../Home/Home.html">Grupos</a></li>
+                    <li><a class="dropdown-item nav-link" href="../Carrera/Carrera.html">Tablero</a></li>
+                    <li><a class="dropdown-item nav-link" href="../Chats/Chats.html">Chats</a></li>
+                    <li><a class="dropdown-item nav-link" href="#">Integrantes del grupo</a></li>
+                    <li><a class="dropdown-item nav-link" href="#">Correo</a></li>
+                    <li><a class="dropdown-item nav-link" href="#">Tareas</a></li>
+                    <li><a class="dropdown-item nav-link" href="../LogIn/LogIn.html">Salir</a></li>
                 </ul>
               </li>
         </ul>
     </div>
 
     <div class="feed">
-        <!-- sección de Comentarios -->
-
         
-            <section id="publicacion">
-                <div id="commentBoxP" contenteditable="true" dir="auto" class="commentBoxP" placeholder="Agrega un comentario..."></div>
-                <br>
-                <!--<div class="cat">Categoría: (No editable)
-                    <input type="radio" class="catRB" name="genero" id="IDCat1"/> Categoría 1
-                    <input type="radio" class="catRB" name="genero" id="IDCat2"/> Categoría 2
-                    <input type="radio" class="catRB" name="genero" id="IDCat3"/> Categoría 3
-                </div>
-                <br>-->
-                <input type="date" id="datepkd" class="datepkd" value="2022-01-01">
-                <button type="button" id="publicar" class="button">Publicar</button>
-            </section>
-
-            <section id="contenido">
-                <section class="paginacion">
-                    <ul id="ulli">
-                        <li type="button" id="li1" onclick="nPags(1)">1</li>
-
-                    </ul>
-                </section>
-
-                <div id="pag1">
-                </div>
-                
-            </section>
-
-            <div id="searchList" class="searchList">
-                <ul id="searchUl">
-                </ul>
-            </div>
-        
-
-        <!-- fin sección de Comentarios -->
 
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="Carrera.js"></script>
+    <script src="Chats.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

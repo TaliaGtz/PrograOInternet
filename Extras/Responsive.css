@@ -1,3 +1,25 @@
+.dropdown-menu .dropdown-item{
+    color: black;
+}
+.dropdown-menu .nav-link:hover{
+    color: brown;
+}
+@media screen and (max-width: 780px){
+    .nav-item{
+        display: none;
+    }
+    .nav-toggle{
+        display: block;
+        transform: translate(0, 18px);
+    }
+    .group{
+        float: right;
+        transform: translate(0, -15px);
+        font-size: 18px;
+        width: 120px; 
+        height: 32px;
+    }
+}
 @media screen and (max-width: 768px){
     .categorias .card::after{
         content: "";
