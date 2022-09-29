@@ -10,15 +10,8 @@
     }
     .nav-toggle{
         display: block;
-        transform: translate(0, 18px);
     }
-    .group{
-        float: right;
-        transform: translate(0, -15px);
-        font-size: 18px;
-        width: 120px; 
-        height: 32px;
-    }
+
 }
 @media screen and (max-width: 768px){
     .categorias .card::after{
@@ -26,13 +19,13 @@
         width: 100%;
         height: 120px;
         position: absolute;
-        transform: translate(0, -50px);
+        transform: translate(-80px, -70px);
         left: calc(80% + 50px);
         transition: .7s ease-in-out all;
         border-left: 170px solid transparent;
         border-bottom: 170px solid mediumpurple;
     }
     .categorias .card:hover::after{
-        left: 65%;
+        left: 70%;
     }
 }
