@@ -1,7 +1,7 @@
-<div class="navTitle">
+<!--<div class="navTitle">
     <h1 class="title">Tablero LMAD</h1>
     <a href="../Chats/Chats.html"><button class="group">Crear chat</button></a>
-</div>
+</div>-->
 <div class="navBtns">
     <ul class="nav nav-fill">
         <li class="nav-item">
