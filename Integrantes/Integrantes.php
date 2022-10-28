@@ -22,7 +22,7 @@
         <a href="../Chats/Chats.html"><button class="group">Crear chat</button></a>
     </div>
     
-    <?php require('./Nav/Nav.php') ?>
+	<?php require "C:/xampp/htdocs/PrograOInternet/Nav/Nav.php"; ?>
 
     <div class="box">
         <input type="text" id="inputSearch" name="search" class="src" placeholder="Buscar..." autocomplete="off">
